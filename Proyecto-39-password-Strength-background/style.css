@@ -14,3 +14,15 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.background {
+  background: url('https://img.freepik.com/premium-photo/desktop-wallpapers-wallpaper-desktop-tree_670382-118902.jpg')
+    no-repeat center center/cover;
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
+}
